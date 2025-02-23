@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: bisque;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            /* display: inline; */
+            /* padding: 50px; */
+            /* display: block; */
+            display: inline-block;
+            
+        }
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color: green;
+            /* display: none;  */
+        }
+        #box3{
+            background-color: blue;
+            /* visibility: hidden; */
+        }
+        #box4{
+            background-color: yellow;
+        }
+        #box5{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="box1" class="box">Box1</div>
+        <div id="box2" class="box">Box2</div>
+        <div id="box3" class="box">Box3</div>
+        <div id="box4" class="box">Box4</div>
+        <div id="box5" class="box">Box5</div>
+    </div>
+</body>
+</html>
