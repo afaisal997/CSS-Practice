@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <title>Display-dropdown</title>
+    <style>
+        *{
+            margin: 0;
+
+        }
+        .menu{
+            width: 40vw;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        .menu h2{
+            background-color: navy;
+            color: white;
+            padding: 10px;
+
+        }
+        .icon{
+            float: right;
+            cursor: pointer;
+
+        }
+        .item ul{
+            list-style-type: none;
+            margin-left: -40px;
+
+        }
+        .item li{
+            padding: 10px;
+            background-color: navy;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+
+        }
+        .item a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            
+        }
+        .item li:hover {
+            background-color: #080338;
+
+        }
+        .item{
+            display: none;
+
+        }
+        .menu:hover .item{
+            display: block;
+
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <h2>Menu <span class="icon material-symbols-outlined">
+        menu
+        </span> </h2>
+        
+        <div class="item">
+            <ul>
+                <li><a href=" ">Home</a></li>
+                <li><a href=" ">Login</a></li>
+                <li><a href=" ">Services</a></li>
+                <li><a href=" ">About</a></li>
+                <li><a href=" ">FAQ</a></li>
+                
+
+              </ul>
+        </div>
+    </div>
+  </body>
+</html>
